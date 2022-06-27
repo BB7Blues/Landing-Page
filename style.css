@@ -1,0 +1,15 @@
+img{
+
+    width: 130px;
+    height: 80px;
+
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+
+}
