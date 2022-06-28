@@ -1,9 +1,15 @@
 body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .logo{
     display: flex;
     margin-top: 10px;
-    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
 
 }
 
@@ -13,7 +19,7 @@ ul{
     padding: 0;
     margin: 0;
     margin-top: 10px;
-    margin-right: 20px;
+    
     gap: 60px;
     
 }
@@ -23,83 +29,166 @@ a{
     color: white;
 }
 
-.header{
-    padding: 20px;
-    background-color: #1F2937;
-    flex: 1;
-    
 
-}
 .head-contain{
     display: flex;
     justify-content: space-between;
-    
-
-}
-.top{
-    display: flex;
-    flex: 1;
     background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
 }
-.top_right{
-    display: flex;
-    flex-direction: column;
-}
-.image{
-    
-    width: 300px;
-    height: 150px;
-}
-.info{
+
+.top-contain{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(213, 222, 154, 0.918);
-}
-.boxes{
+    padding-top: 50px;
+    padding-left:  200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    background-color: #1F2937;    
     
-display: flex;
+}
+.top-left{
+    display: flex;
+    flex-direction: column;
+        
+}
 
+.headline{
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    flex: 1;
+}
+.subtext{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: medium;
+    background-color: #3882f6;
+    padding: 10px;
+    flex: 1;
+    width: 60px;
+    border-radius: 15px;
+   
+    
+}
+.image{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+    background-color: white;
+    padding: 50px;
+}
+.info-text{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .box{
     display: flex;
-    flex-direction: column;
+    border-radius: 15px;
     width: 100px;
     height: 100px;
 }
 .box1{
     display: flex;
     flex-direction: column;
-    flex: 1;
-    gap: 20 px;
+    width: 100px;
     text-align: center;
 }
 .quote_space{
     display:flex;
-    flex: 1;
-    background-color: rgb(211, 211, 255);
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.signature{
+display: flex;
+align-self: flex-end;
+font-weight: bold;
+font-size: large;
 }
 .action_bar{
     display: flex;
+    justify-content: center;
+   padding: 50px;
 }
 .call_to_action{
     display: flex;
-    flex: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     align-content: center;
-    background-color: blueviolet;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-style:hidden;
+    border-radius: 15px;
 }
-.action_right{
+.action_left{
     display: flex;
-    flex: 1;
+     
     flex-direction: column;
 
 }
 .button{
     display: flex;
-}
+    
+    font-size: medium;
+    background-color: #3882f6;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    flex: 0 0 auto;
+    width: 60px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    }
 .footer{
     display: flex;
-    flex: 1;
+    padding: 20px;
     justify-content: center;
     text-align: center;
     background-color: #1F2937;
+}
+.ftext{
+    color: white;
 }
